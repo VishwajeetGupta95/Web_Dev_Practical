@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalogue</title>
+  <style>     body {
+      font-family: Arial, sans-serif;       margin: 20px;
+      background-color: #f9f9f9;
+    }     table {       width: 100%;       border-collapse: collapse;       margin-top: 20px;
+    }     th, td {       padding: 10px;       text-align: center;       border: 1px solid #ddd;
+    }     th {       background-color: #f2f2f2;
+    }     img {       max-width: 100px;       height: auto;       border-radius: 5px;
+    }
+    .add-to-cart {
+      background-color: #28a745;       color: white;       border: none;       padding: 8px 15px;       border-radius: 4px;       cursor: pointer;       font-size: 14px;     }
+    .add-to-cart:hover {       background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <h1>Book Catalogue</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Cover Page</th>
+        <th>Author Name</th>
+        <th>Publisher</th>
+        <th>Price</th>
+        <th>Add to Cart</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="cover1.jpg" alt="Book Cover 1"></td>
+        <td>Book :XML Bible Author : Winston</td>
+        <td>Publication : Wiely</td>
+        <td>$10.99</td>
+        <td><button class="add-to-cart">Add to Cart</button></td>
+      </tr>
+      <tr>
+        <td><img src="cover2.jpg" alt="Book Cover 2"></td>
+        <td>Book :AI Author: S. Russel</td>
+        <td>Publication : Princeton hall</td>
+        <td>$15.99</td>
+        <td><button class="add-to-cart">Add to Cart</button></td>
+      </tr>
+          
+    </tbody>
+  </table>
+</body>
+</html>

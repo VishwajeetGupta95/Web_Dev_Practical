@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylish Web Page</title>
+  <!-- Internal CSS -->
+  <style>
+    /* General Page Style */     body {       font-family: 'Arial', sans-serif;   /* Use Arial font for the entire page */       font-size: 16px;           /* Set the base font size */       line-height: 1.6;           /* Increase line height for readability */       margin: 0;       padding: 0;       background-image: url('background.jpg'); /* Set a background image for the whole page */       background-size: cover;        /* Ensure the background image covers the entire page */       background-position: center;     /* Center the background image */       color: #333;             /* Set default text color */     }
+    /* Header Section */     header {       background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */       padding: 40px;       text-align: center;       color: white;            /* White text for contrast */
+    }
+    header h1 {       font-family: 'Georgia', serif;    /* Use a serif font for the header */       font-size: 3em;           /* Larger font size for the main title */       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow for better visibility */
+    }
+    header p {       font-family: 'Verdana', sans-serif; /* Use sans-serif font for paragraphs */       font-size: 1.2em;          /* Slightly larger text for paragraph */     }
+    /* Main Content Section */
+    .main-content {     background-image: url('content-bg.jpg'); /* Set background image for this section */     background-size: cover;        /* Ensure the image covers the section */     background-position: center;      /* Center the background image */     padding: 40px;
+      margin: 20px;       color: rgb(230, 115, 115);             /* White text to contrast with the background */       border-radius: 10px;          /* Rounded corners for a softer look */     }
+    /* Subheading in Main Content Section */
+    .main-content h2 {       font-family: 'Helvetica', sans-serif;  /* Use Helvetica font for subheadings */       color: #2e0d19            /* Set reddish-brown color for subheadings */       font-size: 2.5em;           /* Larger font size for subheadings */     }
+    /* Highlighted Section */
+    .highlight {       background-image: url('highlight-bg.jpg'); /* Different background image for this section */       background-size: cover;         /* Ensure the image covers the section */       background-position: top;        /* Align the image to the top */       padding: 50px;       color: rgb(112, 182, 238);              /* White text for contrast */       text-align: center;           /* Center-align the text */       margin: 20px;       border-radius: 10px;           /* Optional rounded corners */     }
+    /* Footer Section */     footer {       background-color: #333;         /* Dark background for footer */       color: white;              /* White text color for footer */       text-align: center;           /* Center-align footer text */       padding: 20px;       position: relative;       bottom: 0;       width: 100%;     }
+    /* Link Styling */     a:link, a:visited {       color: #3498db;             /* Blue color for links */       text-decoration: none;         /* Remove underline from links */     }   a:hover {
+    color: #1abc9c;             /* Green color when the link is hovered */     text-decoration: underline;       /* Underline on hover */   }
+    a:active {       color: #e74c3c;             /* Red color when the link is clicked */     }
+    /* Media Query for Smaller Screens */     @media (max-width: 768px) {       header h1 {         font-size: 2.5em;          /* Adjust header font size for small screens */       }
+      .main-content, .highlight {         padding: 20px;           /* Reduce padding for small screens */
+      }
+      footer {         padding: 10px;           /* Reduce footer padding */
+      }
+    }
+  </style>
+</head> <body>
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to My Stylish Web Page</h1>
+    <p>This page uses CSS for different font styles and background images.</p>
+  </header>
+  <!-- Main Content Section -->
+  <section class="main-content">
+    <h2>About This Page</h2>
+    <p>This page demonstrates how to use CSS to design a web page with various font styles and background images.</p>   </section>
+  <!-- Highlighted Section -->
+  <section class="highlight">
+    <h2>Special Features</h2>
+    <p>This section has a unique background image to highlight the content.</p>
+  </section>
+<!-- Footer Section -->
+<footer>
+  <p>© 2025 Stylish Web Page</p>
+</footer>
+</body>
+</html>

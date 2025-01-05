@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Cart</title>
+</head>
+<body>
+<div class="container">
+<h1>Your Cart</h1>
+<!-- Cart Table/Container -->
+<table border="1" style="width: 100%; border-collapse: collapse;">
+<thead>
+<tr>
+<th>Book Image</th>
+<th>Book Title</th>
+<th>Author</th>
+<th>Price</th>
+<th>Quantity</th>
+<th>Remove</th>
+</tr>
+</thead>
+<tbody>
+<!-- Book 1 -->
+<tr>
+<td><img src="cover1.jpg" alt="Book 1" width="50"></td>
+<td>XML Bible</td>
+<td> Winston</td>
+<td>$10.99</td>
+<td><input type="number" value="2" min="1" style="width: 50px;"></td>
+<td><button>Remove</button></td>
+</tr>
+<!-- Book 2 -->
+<tr>
+<td><img src="cover2.jpg" alt="Book 2" width="50"></td>
+<td>AI</td>
+<td>S. Russel</td>
+<td>$15.99</td>
+<td><input type="number" value="1" min="1" style="width: 50px;"></td>
+<td><button>Remove</button></td>
+</tr>
+</tbody>
+</table>
+<!-- Total Cost -->
+<div>
+<strong>Total Cost: $<span>38.00</span></strong>
+</div>
+<!-- Cart Actions -->
+<div>
+<button onclick="window.location.href = '/shop';">Continue
+Shopping</button>
+<button onclick="window.location.href = '/checkout';">Proceed to Checkout</button>
+<button onclick="window.location.href = '/clear-cart';">Clear Cart</button>
+</div>
+<!-- Discount Section -->
+<div>
+<input type="text" placeholder="Enter discount code">
+<button>Apply Discount</button>
+</div>
+<!-- Optional Shipping Info -->
+<div>
+<p>Shipping information will be provided during checkout.</p>
+</div>
+</div>
+</body>
+</html>
